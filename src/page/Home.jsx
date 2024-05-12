@@ -31,7 +31,7 @@ const Home = () => {
               <div className=" flex justify-around mb-2 ">
                 <Link to="mailto:thakursimran1207@gmail.com" className="rounded-full bg-black p-3 text-xl"><MdEmail /></Link>
                 <Link to="https://www.linkedin.com/in/simranthakur07/" target="_blank" className="rounded-full bg-black p-3 text-xl"><FaLinkedin /></Link>
-                <Link className="rounded-full bg-black p-3 text-xl"><BsBrowserChrome /></Link>
+                <Link to="https://my-portfolio-hazel-rho-35.vercel.app/" target="_blank" className="rounded-full bg-black p-3 text-xl"><BsBrowserChrome /></Link>
                 <Link className="rounded-full bg-black p-3 text-xl"><FaInstagram /></Link>
               </div>
               <button className=" absolute top-100 bg-pink-200 text-black rounded-xl text-xl w-full left-0 py-1">Contact Me</button>

@@ -1,5 +1,7 @@
 import { GiDiamonds } from "react-icons/gi";
 import img1 from '../assets/download.png'
+import img2 from '../assets/Vite-React.png'
+import img3 from '../assets/Netflix.png'
 import { Link } from "react-router-dom";
 
 const Project = () => {
@@ -14,29 +16,22 @@ const Project = () => {
           Check out my featured projects
         </h1>
         <div className="grid gap-4 lg:grid-cols-2 md:grid-cols-2 mt-8">
+         
+          <div className=" rounded-2xl h-80 relative">
+            <Link to="https://github.com/SimranThakur07/myPortfolio" target="_blank"><img src={img2} alt="" className=" rounded-2xl h-full project-img w-full " /></Link>
+           
+          </div>
+          <div className=" rounded-2xl h-80 relative">
+            <Link to="https://github.com/SimranThakur07/MERN--Ecommerce-frontend" target="_blank"><img src={img1} alt="" className=" rounded-2xl h-full project-img w-full " /></Link>
+            
+          </div>
           <div className=" rounded-3xl h-80 relative">
-            <Link><img src={img1} alt="" className=" rounded-3xl h-full project-img w-full" /></Link>
-            {/* <div className="content absolute top-0 left-0 h-full flex justify-center items-center w-full bg-neutral-700 bg-opacity-80  rounded-2xl">
-                <p className=" text-xl">Ecommerce</p>
-            </div> */}
+            <Link to="https://github.com/SimranThakur07/Netflixclone" target="_blank"><img src={img3} alt="" className=" rounded-3xl h-full project-img w-full" /></Link>
+           
           </div>
           <div className=" rounded-3xl h-80 relative">
             <Link><img src={img1} alt="" className=" rounded-3xl h-full project-img w-full" /></Link>
-            {/* <div className="content absolute top-0 left-0 h-full flex justify-center items-center w-full bg-neutral-700 bg-opacity-80  rounded-2xl">
-                <p className=" text-xl">Ecommerce</p>
-            </div> */}
-          </div>
-          <div className=" rounded-3xl h-80 relative">
-            <Link><img src={img1} alt="" className=" rounded-3xl h-full project-img w-full" /></Link>
-            {/* <div className="content absolute top-0 left-0 h-full flex justify-center items-center w-full bg-neutral-700 bg-opacity-80  rounded-2xl">
-                <p className=" text-xl">Ecommerce</p>
-            </div> */}
-          </div>
-          <div className=" rounded-3xl h-80 relative">
-            <Link><img src={img1} alt="" className=" rounded-3xl h-full project-img w-full" /></Link>
-            {/* <div className="content absolute top-0 left-0 h-full flex justify-center items-center w-full bg-neutral-700 bg-opacity-80  rounded-2xl">
-                <p className=" text-xl">Ecommerce</p>
-            </div> */}
+           
           </div>
           
         </div>
